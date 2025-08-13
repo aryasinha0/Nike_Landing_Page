@@ -1,0 +1,85 @@
+#root {
+  /* max-width: 1280px; */
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  overflow-x: hidden;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+
+header {
+  /* padding: 8px 16px 8px 16px; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #282c34;
+  width: 100%;
+  height: 10vh;
+}
+header ul{
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+.hero {
+  margin: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.hero-content {
+  padding-left: 100px;
+  width: 50%;
+  text-align: start;
+  max-width: 700px;
+  color: #282c34;
+}
+.hero-content h1 {
+  font-size: 108px;
+  line-height: 1.1;
+  font-weight: 800;
+  line-height: 102px;
+  font-style: extra-bold;
+  margin-bottom: 0;
+}
+.hero-content p {
+  font-size: 16px;
+  line-height: 30px;
+  margin-top: 20px;
+  font-weight: 500;
+  line-height: 100%;
+  max-width: 400px;
+  padding-left: 15px;
+  color: gray;
+}
+
+.Btns {
+  display: flex;
+  gap: 1rem;
+  margin-top: 20px;
+  padding-left: 15px;
+}
+.Btns button {
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.Btns .shop-btn {
+  background-color: #D01C28;
+}
+.Btns .category {
+  background-color: transparent;
+  border: 1px solid #282c34;
+  color: #282c34;
+}
+.hero img {
+  width: 50%;
+  height: auto;
+  max-width: 600px;
+  margin-right: 100px;
+}
